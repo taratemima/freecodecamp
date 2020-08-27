@@ -16,3 +16,12 @@ img {
   max-width: 100%;
   height: auto;
 }
+header{
+  display: flex;
+}
+footer{
+  display: flex;
+}
+main{
+  display: flex;
+}
