@@ -18,13 +18,16 @@ img {
 }
 header{
   display: flex;
+  flex-direction: row;
   justify-content: center;
 }
 footer{
   display: flex;
+  flex-direction: row;
   justify-content: center;
 }
 main{
   display: flex;
+  flex-direction: row;
   justify-content: center;
 }
