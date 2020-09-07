@@ -1,0 +1,65 @@
+body {
+  background-color: white;
+  width: 30vw;
+}
+
+h1 {
+  color: black;
+padding-left: 3em;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+  color: black;
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+ 
+}
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-section{
+  background-color: gray;
+  padding-left: 7em;
+}
+
+#navbar{
+  position: fixed;
+  width: 6em;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: darkgray;
+  color: black;
+}
+
+.nav-link{
+  background-color: darkgray;
+  right-padding: 2em;
+  left-padding: 2em;
+  color: black;
+}
+
+@media only screen and (max-width: 768px) {
+  width: 100%
+}
