@@ -1,0 +1,65 @@
+body {
+  background-color: white;
+  width: 30vw;
+  margin: 0;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+  color: black;
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header{
+  display: fixed;
+  flex-direction: row;
+  justify-content: center;
+}
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+#navbar{
+  position: fixed;
+  background-color: lightgray;
+}
+
+.nav-link{
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.project-tile{
+  background-color: gray;
+  color: white;
+}
+#projects{
+  background-color: gray;
+}
+#welcome-section{
+  height: 100vh;
+ padding-left: 10em;
+}
+
+@media only screen and (max-width: 768px) { 
+  width: 100%;
+  }
